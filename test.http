@@ -2,7 +2,7 @@
 GET http://localhost:3000/property
 
 ### Get Property By Id
-GET http://localhost:3000/property/2
+GET http://localhost:3000/property/2?sort=true
 
 ### Create Property
 POST http://localhost:3000/property
