@@ -11,12 +11,20 @@ Content-Type: application/json
 
 {
     "name": "Property 1",
-    "description": "Description 1",
+    "description": "abc",
     "area": 100
 }
 
 ### Update Property
-PUT http://localhost:3000/property/:id
+PUT http://localhost:3000/property/1
+Accept: application/json
+Content-Type: application/json
+
+{
+    "name": "Property 1",
+    "description": "11",
+    "area": 100
+}
 
 ### Delete Property
 DELETE http://localhost:3000/property/:id
