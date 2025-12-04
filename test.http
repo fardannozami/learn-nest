@@ -16,13 +16,13 @@ Content-Type: application/json
 }
 
 ### Update Property
-PUT http://localhost:3000/property/1
+PUT http://localhost:3000/property/2
 Accept: application/json
 Content-Type: application/json
 
 {
     "name": "Property 1",
-    "description": "1s",
+    "description": "1sa",
     "area": 100
 }
 
