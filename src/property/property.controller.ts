@@ -21,24 +21,12 @@ export class PropertyController {
     //     forbidNonWhitelisted: true,
     //     transform: true
     // }))
-    createProperty(@Body(new ValidationPipe({
-        whitelist: true,
-        forbidNonWhitelisted: true,
-        transform: true,
-        groups: ['create'],
-        always: true
-    })) body: CreatePropertyDto) {
+    createProperty(@Body() body: CreatePropertyDto) {
         return body;
     }
 
     @Put(":id")
-    updateProperty(@Param("id", ParseIntPipe) id, @Body(new ValidationPipe({
-        whitelist: true,
-        forbidNonWhitelisted: true,
-        transform: true,
-        groups: ['update'],
-        always: true
-    })) body: CreatePropertyDto) {
+    updateProperty(@Param("id", ParseIntPipe) id, @Body() body: CreatePropertyDto) {
         return body;
     }
 }

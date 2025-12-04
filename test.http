@@ -11,7 +11,7 @@ Content-Type: application/json
 
 {
     "name": "Property 1",
-    "description": "abc",
+    "description": "ac",
     "area": 100
 }
 
@@ -22,7 +22,7 @@ Content-Type: application/json
 
 {
     "name": "Property 1",
-    "description": "11",
+    "description": "1s",
     "area": 100
 }
 
