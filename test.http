@@ -11,20 +11,8 @@ Content-Type: application/json
 
 {
     "name": "Property 1",
-    "description": "Property 1 description",
-    "price": 1000,
-    "address": "Property 1 address",
-    "city": "Property 1 city",
-    "state": "Property 1 state",
-    "zip": "Property 1 zip",
-    "bedrooms": 1,
-    "bathrooms": 1,
-    "square_feet": 1000,
-    "lot_size": 1000,
-    "garage": 1,
-    "pool": true,
-    "year_built": 2020,
-    "property_type_id": 1
+    "description": "Description 1",
+    "area": 100
 }
 
 ### Update Property
